@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch opdjsabhioudjas",
+            "request": "launch",
+            "mainClass": "opdjsabhioudjas",
+            "projectName": "exercicios-dio_227fe1d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExercicioProposto02",
+            "request": "launch",
+            "mainClass": "ExercicioProposto02",
+            "projectName": "exercicios-dio_227fe1d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploOrdenacaoSet",
+            "request": "launch",
+            "mainClass": "ExemploOrdenacaoSet",
+            "projectName": "exercicios-dio_227fe1d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploSet",
+            "request": "launch",
+            "mainClass": "ExemploSet",
+            "projectName": "exercicios-dio_227fe1d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExercicioProposto01",
+            "request": "launch",
+            "mainClass": "ExercicioProposto01",
+            "projectName": "exercicios-dio_227fe1d3"
+        }
+    ]
+}
