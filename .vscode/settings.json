@@ -1,6 +1,7 @@
 {
     "java.dependency.packagePresentation": "hierarchical",
     "java.project.sourcePaths": [
-        "exercicios8-set\\src\\br\\com\\dio\\collection\\set"
+        "exercicios9-map\\src",
+        "exercicios10-stream"
     ]
 }

@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ExercicioStreamApi",
+            "request": "launch",
+            "mainClass": "src.ExercicioStreamApi",
+            "projectName": "exercicios-dio_227fe1d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExercicioStreamApi",
+            "request": "launch",
+            "mainClass": "ExercicioStreamApi",
+            "projectName": "exercicios-dio_227fe1d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch PropostoExercicio03",
+            "request": "launch",
+            "mainClass": "br.com.dio.collection.map.PropostoExercicio03.PropostoExercicio03",
+            "projectName": "exercicios-dio_227fe1d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch PropostoExercicio02",
+            "request": "launch",
+            "mainClass": "PropostoExercicio02",
+            "projectName": "exercicios-dio_227fe1d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch PropostoExercicio01",
+            "request": "launch",
+            "mainClass": "PropostoExercicio01",
+            "projectName": "exercicios-dio_227fe1d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch OrdenacaoMap",
+            "request": "launch",
+            "mainClass": "OrdenacaoMap",
+            "projectName": "exercicios-dio_227fe1d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploMap",
+            "request": "launch",
+            "mainClass": "ExemploMap",
+            "projectName": "exercicios-dio_227fe1d3"
+        },
+        {
+            "type": "java",
             "name": "Launch opdjsabhioudjas",
             "request": "launch",
             "mainClass": "opdjsabhioudjas",
