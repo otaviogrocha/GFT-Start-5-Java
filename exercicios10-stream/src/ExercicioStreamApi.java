@@ -75,7 +75,7 @@ public class ExercicioStreamApi {
         System.out.println("\nRemova os valores ímpares: ");
            
             //Metodo 1: usando numerosaleatorios 1 
-        // numerosAleatorios1.removeIf(integer -> integer % 2 != 0);
+        numerosAleatorios1.removeIf(integer -> integer % 2 != 0);
         // System.out.println(numerosAleatorios1);
             //Metodo 2: usando Integer e parenteses no lambda
         numerosAleatoriosInteger.removeIf(i -> (i % 2 != 0));
