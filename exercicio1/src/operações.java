@@ -1,3 +1,5 @@
+package exercicio1.src;
+
 public class operações {
     
     public static void soma(double numero1, double numero2){

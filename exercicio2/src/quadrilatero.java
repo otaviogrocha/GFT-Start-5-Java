@@ -1,3 +1,5 @@
+package exercicio2.src;
+
 public class quadrilatero {
     
     public static void area(double lado){
