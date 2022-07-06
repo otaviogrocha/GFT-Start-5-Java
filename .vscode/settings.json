@@ -1,5 +1,6 @@
 {
     "java.dependency.packagePresentation": "hierarchical",
+    "java.debug.settings.forceBuildBeforeLaunch": false,
     "java.project.sourcePaths": [
         "exercicios9-map\\src",
         "exercicios10-stream",
