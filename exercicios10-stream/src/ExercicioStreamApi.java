@@ -29,7 +29,7 @@ public class ExercicioStreamApi {
             
         System.out.println("\nPegue os 5 primeiros números e coloque dentro de um Set: ");
            // Metodo 1: ForEach & Lambda
-        // numerosAleatorios.stream()
+        // numerosAleatorios.stream() 
         //     .limit(5)
         //     .collect(Collectors.toSet())
         //     .forEach(System.out::println);
@@ -83,26 +83,34 @@ public class ExercicioStreamApi {
         
         //Para resolver:
 
-        System.out.println("\nIgnore os 3 primeiros elementos da lista e imprima o restante: ");
-        numerosAleatoriosInteger.stream()
-            .skip(3)
-            .forEach(System.out::print);
+        List<Integer> numerosAleatoriosInteger2 = numerosAleatorios.stream()
+        .map(Integer::parseInt)
+        .collect(Collectors.toList());
 
-        long countNumerosUnicos = numerosAleatoriosInteger.stream()
+        System.out.println("\nIgnore os 3 primeiros elementos da lista e imprima o restante: ");
+        numerosAleatoriosInteger2.stream()
+            .skip(3)
+            .forEach(t -> System.out.print(t + " "));
+
+        long countNumerosUnicos = numerosAleatoriosInteger2.stream()
             .distinct()
             .count();
+
+        System.out.println();
+
         System.out.println("\nRetirando os números repetidos da lista, quantos números ficam?");
         System.out.println(countNumerosUnicos);
 
         System.out.println("\nMostre o menor valor da lista: ");
-        numerosAleatoriosInteger.stream()
-            .mapToInt(Integer::intValue)
-            .min()
-            .ifPresent(System.out::print);
+        numerosAleatoriosInteger2.stream()
+        .mapToInt(Integer::intValue)
+        .min()
+        .ifPresent(System.out::println);
+
         System.out.println();
 
         System.out.println("\nMostre o maior valor da lista: ");
-        numerosAleatoriosInteger.stream()
+        numerosAleatoriosInteger2.stream()
             .mapToInt(Integer::intValue)
             .max()
             .ifPresent(System.out::print);
@@ -113,10 +121,10 @@ public class ExercicioStreamApi {
             .mapToInt(Integer::intValue)
             .sum();
             
-        System.out.println("\nPegue apenas os números ímpares e some: " + somaDosNumerosPares);
+        System.out.println("\nPegue apenas os números pares e some: " + somaDosNumerosPares);
 
         System.out.println("\nMostre a lista na ordem númerica: ");
-        List<Integer> numerosOrdemNatural = numerosAleatoriosInteger.stream()
+        List<Integer> numerosOrdemNatural = numerosAleatoriosInteger2.stream()
             .sorted(Comparator.naturalOrder())
             .collect(Collectors.toList());
         System.out.println(numerosOrdemNatural);
