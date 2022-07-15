@@ -5,6 +5,7 @@
         "exercicios9-map\\src",
         "exercicios10-stream",
         "exercicios7-lists",
-        "."
+        ".",
+        "exercicios8-set"
     ]
 }

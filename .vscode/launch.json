@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ExemploOrdenacaoSet",
+            "request": "launch",
+            "mainClass": "src.br.com.dio.collection.Set.ExemploOrdenacaoSet",
+            "projectName": "exercicios-dio_227fe1d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch RefatoracaoOrdenacaoMap",
+            "request": "launch",
+            "mainClass": "src.RefatoracaoOrdenacaoMap",
+            "projectName": "exercicios-dio_227fe1d3"
+        },
+        {
+            "type": "java",
             "name": "Launch ExercicioStreamApi",
             "request": "launch",
             "mainClass": "src.ExercicioStreamApi",
